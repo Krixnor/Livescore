@@ -1,0 +1,98 @@
+*{
+    /* border: 1px solid red; */
+}
+
+body{
+    font-size: 0.8rem;
+    height: 100vh;
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+}
+.row{
+    padding: 0px;
+    white-space-collapse: collapse;
+    /* height: 100vh; */
+}
+
+a{
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    
+}
+.left{
+    min-height: 100vh;
+    background-color: rgb(63, 62, 62);
+    /* padding-bottom: 999px; */
+    padding:0px;
+    /* height: 100vh; */
+    width: 20%;
+}
+
+.left li{
+    display: flex;
+    flex-wrap: nowrap;
+   
+    list-style: none;
+    font-size: 0.8rem;
+    border-bottom: 1px solid black;
+   
+}
+
+.left ul{
+    padding-left: 0rem;
+   
+}
+
+.right{
+    padding: 0px;
+    min-height: 100vh;
+    width: 80%;
+}
+.right li{
+    list-style: none;
+    padding: 0.5rem;
+}
+.right ul{
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid orangered;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ft{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    /* place-content: center; */
+}
+.ft p{
+    margin-bottom: 0px;
+}
+
+#dates{
+    /* overflow-x: scroll; */
+}
+
+.col-10{
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.col-10 ul{
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+.col-10 ul::-webkit-scrollbar{
+    display: none;
+}
+
+/* white-space: nowrap; overflow: hidden; text-overflow: ellipsis; */
